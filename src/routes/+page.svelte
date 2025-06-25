@@ -11,12 +11,30 @@
 </script>
 
 <Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="/sample.png"
-	generating
+	title="Global phone service. One simple plan."
+	subtitle="Unlimited talk, text, and data. Anywhere you go."
+	imageSrc="/generated/image-a-joyful-traveler-standing-on-a-bustling.webp"
+	centered={false}
+	callsToAction={[
+		{
+			href: "/pricing",
+			label: "Get started"
+		},
+		{
+			href: "/learn",
+			label: "Learn more"
+		}
+	]}
 />
-<LogoScroller label="" generating />
+<LogoScroller 
+	label="Trusted by global teams"
+	logoUrls={[
+		'https://logo.clearbit.com/airbnb.com',
+		'https://logo.clearbit.com/upwork.com',
+		'https://logo.clearbit.com/booking.com',
+		'https://logo.clearbit.com/mckinsey.com'
+	]}
+/>
 
 <Summary
 	generating
